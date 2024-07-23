@@ -5,5 +5,5 @@ LICENSE = "MIT"
 
 inherit packagegroup
 
-PV = "2.1"
+PV = "1.0"
 PR = "r0"
