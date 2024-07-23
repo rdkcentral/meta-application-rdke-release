@@ -1,7 +1,7 @@
 SUMMARY = "Custom package group for application layer"
 
 PACKAGE_ARCH = "${APPLICATION_LAYER_ARCH}"
-LICENSE = "CLOSED"
+LICENSE = "MIT"
 
 inherit packagegroup
 
