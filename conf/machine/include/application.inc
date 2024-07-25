@@ -2,7 +2,7 @@
 
 require conf/include/package_revisions.inc
 
-APPLICATION_LAYER_ARCH = "${MACHINE}-apps"
+APPLICATION_LAYER_ARCH = "${MACHINE}-application"
 APPLICATION_IPK_PATH = "ipks"
 APPLICATION_IPK_SERVER_PATH = "${RDK_ARTIFACTS_BASE_URL}/opkg/${MACHINE}/ipks/${APPLICATION_LAYER_ARCH}/0.0.0"
 
