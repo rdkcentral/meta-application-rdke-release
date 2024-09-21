@@ -1,4 +1,4 @@
-PV_pn-packagegroup-application-layer= "1.0.1"
+PV_pn-packagegroup-application-layer= "1.1.0"
 PR_pn-packagegroup-application-layer= "r0"
 PACKAGE_ARCH_pn-${MLPREFIX}packagegroup-application-layer = "${APPLICATION_LAYER_ARCH}"
 
