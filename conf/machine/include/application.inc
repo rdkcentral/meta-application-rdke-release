@@ -1,7 +1,7 @@
 # To support layered ipk generation
 APPLICATION_LAYER_ARCH = "${MACHINE}-application"
 APPLICATION_LAYER_VERSION = "4.0.3"
-APPLICATION_IPK_SERVER_PATH = "${RDK_ARTIFACTS_BASE_URL}/opkg/${MACHINE}/ipks/${APPLICATION_LAYER_ARCH}/${APPLICATION_LAYER_VERSION}"
+APPLICATION_IPK_SERVER_PATH = "https://partners.artifactory.comcast.com/artifactory/opkg/raspberrypi4-64-rdke/ipks/raspberrypi4-64-rdke-vendor/apparmor_ven"
 
 PACKAGE_EXTRA_ARCHS:append = " ${APPLICATION_LAYER_ARCH}"
 
