@@ -8,7 +8,7 @@ RDK_ARTIFACTS_BASE_URL ?= ""
 APPLICATION_LAYER_VERSION = "4.0.6"
 
 APPLICATION_IPK_PATH = "${APPLICATION_LAYER_ARCH}/${APPLICATION_LAYER_VERSION}/ipks/${BUILD_VARIANT}"
-APPLICATION_IPK_SERVER_PATH = "${RDK_ARTIFACTS_BASE_URL}/${APPLICATION_IPK_PATH}"
+APPLICATION_IPK_SERVER_PATH = "https://partners.artifactory.comcast.com/artifactory/opkg/raspberrypi4-64-rdke/ipks/raspberrypi4-64-rdke-application/dev/hotfix_1.1.0"
 
 # To set the remote feeds
 IPK_FEED_URIS += " \
